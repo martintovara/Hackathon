@@ -198,6 +198,12 @@ h3 {
     user-select: none;
 }
 
+.mailto{
+    color: rgba(255, 255,  255, 0.75);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 @media screen and (orientation: landscape) and (max-width: 940px) {
     .banner {
