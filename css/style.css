@@ -1,6 +1,7 @@
 :root {
     --main-color: #d16219;
     --orange-text: #e27e33;
+    --green-color: #616237;
 }
 
 html {
@@ -50,15 +51,11 @@ h3 {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--green-color);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #777;
+    background: var(--main-color);
 }
 
 .page-divider {
